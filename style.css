@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./images/image.jpg');
+  background-size: cover;
+  background-position: right center;
+  color: #333;
+  overflow-y: hidden;
+}
+
+.parent {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+.main-heading {
+    width: 612px; 
+    height: 362px;
+}
+
+.main-heading h1 {
+  font-weight: 900;
+  font-size: 350px;
+  width: 612px;
+  background: -webkit-linear-gradient(#0765E3, #AE01FF);
+  -webkit-background-clip: text; /* to restrict the gradient only to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+} 
+
+.parent .main-message {
+  display: flex;
+  align-items: center;
+  width: 523px;
+  height: 104px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.parent .main-message-2 {
+  display: flex;
+  align-items: center;
+  width: 451px;
+  height: 56px;
+  margin-bottom: 20px;
+}
+
+.main-button-container {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background: -webkit-linear-gradient(#0765E3, #AE01FF);
+  padding: 10px 25px;
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+  font-size: small;
+  color: #333;
+}
+
